@@ -1,3 +1,7 @@
+package decorator;
+
+import decorator.PlaylistDecorator;
+
 public class TwicePlaylist extends PlaylistDecorator {
     public TwicePlaylist(Playlist list) {
         super(list);

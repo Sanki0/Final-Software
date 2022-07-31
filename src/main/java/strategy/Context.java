@@ -1,3 +1,8 @@
+package strategy;
+
+import composite.Music;
+import decorator.PlaylistImpl;
+
 public class Context {
     public PlaylistOperation playlistOperation;
 

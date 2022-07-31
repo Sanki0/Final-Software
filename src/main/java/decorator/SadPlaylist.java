@@ -1,4 +1,8 @@
-public class SadPlaylist extends PlaylistDecorator{
+package decorator;
+
+import decorator.PlaylistDecorator;
+
+public class SadPlaylist extends PlaylistDecorator {
     public SadPlaylist(Playlist list) {
         super(list);
     }

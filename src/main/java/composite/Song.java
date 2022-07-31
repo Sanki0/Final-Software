@@ -1,7 +1,9 @@
+package composite;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Song implements Music{
+public class Song implements Music {
     private final String name;
     private List<Music> song;
 

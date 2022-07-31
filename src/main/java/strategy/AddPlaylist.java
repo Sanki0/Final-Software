@@ -1,3 +1,7 @@
+package strategy;
+
+import composite.Music;
+import decorator.PlaylistImpl;
 import org.jetbrains.annotations.NotNull;
 
 public class AddPlaylist implements PlaylistOperation{

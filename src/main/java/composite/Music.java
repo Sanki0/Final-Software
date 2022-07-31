@@ -1,3 +1,5 @@
+package composite;
+
 import java.util.List;
 
 public interface Music {

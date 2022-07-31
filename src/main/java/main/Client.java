@@ -1,3 +1,12 @@
+package main;
+
+import composite.Album;
+import composite.Song;
+import decorator.PlaylistImpl;
+import strategy.AddPlaylist;
+import strategy.Context;
+import strategy.RemovePlaylist;
+
 public class Client {
     public static void main(String[] args) {
         Song ew= new Song("Ew");

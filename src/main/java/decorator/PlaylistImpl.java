@@ -1,3 +1,7 @@
+package decorator;
+
+import composite.Music;
+
 import java.util.ArrayList;
 import java.util.List;
 

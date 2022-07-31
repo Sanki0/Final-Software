@@ -1,3 +1,5 @@
+package decorator;
+
 public abstract class PlaylistDecorator implements Playlist {
     private Playlist list;
 
