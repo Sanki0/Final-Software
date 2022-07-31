@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlaylistImpl implements Playlist{
-    public List<Music> playlistSongs;
+    private final List<Music> playlistSongs;
 
     public PlaylistImpl() {
         this.playlistSongs = new ArrayList<>();
@@ -21,5 +21,7 @@ public class PlaylistImpl implements Playlist{
         playlistSongs.forEach(Music::printName);
     }
 
-    //agregar un setter y getter
+    public List<Music> getPlaylistSongs() {
+        return playlistSongs;
+    }
 }

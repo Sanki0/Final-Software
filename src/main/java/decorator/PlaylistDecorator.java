@@ -1,7 +1,7 @@
 package decorator;
 
 public abstract class PlaylistDecorator implements Playlist {
-    private Playlist list;
+    private final Playlist list;
 
     public PlaylistDecorator(Playlist list) {
         this.list = list;

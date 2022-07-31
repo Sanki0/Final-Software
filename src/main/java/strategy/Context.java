@@ -4,7 +4,7 @@ import composite.Music;
 import decorator.PlaylistImpl;
 
 public class Context {
-    public PlaylistOperation playlistOperation;
+    private final PlaylistOperation playlistOperation;
 
     public Context(PlaylistOperation playlistOperation) {
         this.playlistOperation = playlistOperation;

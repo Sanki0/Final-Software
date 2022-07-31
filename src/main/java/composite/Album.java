@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Album implements Music {
-    private String name;
-    private List<Music> albumSongs;
+    private final String name;
+    private final List<Music> albumSongs;
 
     public Album(String name) {
         this.name = name;
