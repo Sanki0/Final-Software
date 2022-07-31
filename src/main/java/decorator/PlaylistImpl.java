@@ -5,7 +5,7 @@ import composite.Music;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlaylistImpl implements Playlist{
+public class PlaylistImpl implements Playlist {
     private final List<Music> playlistSongs;
 
     public PlaylistImpl() {

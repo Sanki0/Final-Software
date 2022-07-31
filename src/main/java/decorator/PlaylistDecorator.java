@@ -3,7 +3,7 @@ package decorator;
 public abstract class PlaylistDecorator implements Playlist {
     private final Playlist list;
 
-    public PlaylistDecorator(Playlist list) {
+    protected PlaylistDecorator(Playlist list) {
         this.list = list;
     }
 

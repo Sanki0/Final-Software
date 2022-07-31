@@ -10,7 +10,7 @@ public class SadPlaylist extends PlaylistDecorator {
         return super.show() + type();
     }
 
-    public String type(){
+    public String type() {
         return "Sad";
     }
 }

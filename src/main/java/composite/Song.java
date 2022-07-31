@@ -18,10 +18,6 @@ public class Song implements Music {
         System.out.println(this.name);
     }
 
-    public void addSong(Song song1){
-        songAsList.add(song1);
-    }
-
     @Override
     public List<Music> getMusic() {
         return songAsList;
