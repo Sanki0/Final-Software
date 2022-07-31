@@ -2,7 +2,6 @@ package strategy;
 
 import composite.Music;
 import decorator.Playlist;
-import decorator.PlaylistImpl;
 import org.jetbrains.annotations.NotNull;
 
 public class RemovePlaylist implements PlaylistOperation {
