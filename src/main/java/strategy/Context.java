@@ -1,7 +1,7 @@
 package strategy;
 
 import composite.Music;
-import decorator.PlaylistImpl;
+import decorator.Playlist;
 
 public class Context {
     private final PlaylistOperation playlistOperation;
@@ -10,7 +10,7 @@ public class Context {
         this.playlistOperation = playlistOperation;
     }
 
-    public void executePlaylistOperation(PlaylistImpl playlist, Music music) {
+    public void executePlaylistOperation(Playlist playlist, Music music) {
         playlistOperation.doOperation(playlist, music);
     }
 }

@@ -17,11 +17,13 @@ public class PlaylistImpl implements Playlist {
         return "Playlist";
     }
 
-    public void printSongs() {
-        playlistSongs.forEach(Music::printName);
-    }
-
+    @Override
     public List<Music> getPlaylistSongs() {
         return playlistSongs;
+    }
+
+    @Override
+    public void printSongs() {
+        System.out.println("Empty Playlist");
     }
 }
