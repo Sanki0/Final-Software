@@ -6,11 +6,10 @@ import java.util.List;
 
 public abstract class PlaylistDecorator implements Playlist {
 
-    private Playlist list;
-    public List<Music> playlistSongs = new PlaylistImpl().getPlaylistSongs();
+    private final Playlist list;
+    private List<Music> playlistSongs = new PlaylistImpl().getPlaylistSongs();
 
-
-    public PlaylistDecorator(Playlist list) {
+    protected PlaylistDecorator(Playlist list) {
         this.list = list;
     }
 

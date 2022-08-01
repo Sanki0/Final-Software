@@ -11,6 +11,6 @@ public class TwicePlaylist extends PlaylistDecorator {
     }
 
     public String type() {
-        return "Twice";
+        return " Twice";
     }
 }
