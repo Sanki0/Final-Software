@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ventanas.Principal">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="299" height="600"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <focusTraversalPolicyProvider value="false"/>
+      <focusable value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <minimumSize width="200" height="400"/>
+      <preferredSize width="300" height="500"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1eb9d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="700" height="900"/>
+          <minimumSize width="400" height="600"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="88b25" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Bernard MT Condensed" size="36" style="1"/>
+              <foreground color="-9848005"/>
+              <preferredSize width="200" height="80"/>
+              <text value="Music"/>
+            </properties>
+          </component>
+          <component id="2a4c4" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="20" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Álbum"/>
+            </properties>
+          </component>
+          <component id="4d120" class="javax.swing.JButton" binding="buttonAlbum">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="7ed60" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="22" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Canciones"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="c30e7" class="javax.swing.JButton" binding="buttonSong">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

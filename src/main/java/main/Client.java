@@ -8,9 +8,17 @@ import decorator.TwicePlaylist;
 import strategy.AddPlaylist;
 import strategy.Context;
 import strategy.RemovePlaylist;
+import ventanas.Principal;
+
+import javax.swing.*;
 
 public class Client {
     public static void main(String[] args) {
+        Principal v1 = new Principal(new JDialog(), true);
+        v1.setSize(300,500);
+        v1.setTitle("Reproductor");
+        v1.setVisible(true);
+
         Song ew = new Song("Ew");
         Song alcoholFree = new Song("Alcohol-Free");
         Song firstTime = new Song("First Time");
