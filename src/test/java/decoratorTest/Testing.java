@@ -1,3 +1,5 @@
+package decoratorTest;
+
 import decorator.Playlist;
 import decorator.PlaylistImpl;
 import decorator.SadPlaylist;

@@ -8,6 +8,7 @@ public class Principal extends JFrame {
     private JPanel contentPane;
     private JButton buttonAlbum;
     private JButton buttonSong;
+    private JButton buttonPlaylist;
 
     public Principal(JDialog jDialog, boolean b) {
         initComponents();
@@ -25,8 +26,15 @@ public class Principal extends JFrame {
         buttonSong.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Song song = new Song(new javax.swing.JDialog(),true);
+                Playlist song = new Playlist(new javax.swing.JDialog(),true);
                 song.setVisible(true);
+            }
+        });
+        buttonPlaylist.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Playlist playlist = new Playlist(new javax.swing.JDialog(),true);
+                playlist.setVisible(true);
             }
         });
     }

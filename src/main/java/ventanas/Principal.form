@@ -70,6 +70,22 @@
               <text value="Button"/>
             </properties>
           </component>
+          <component id="da7cd" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="22" style="1"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Playlist"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="27515" class="javax.swing.JButton" binding="buttonPlaylist">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
         </children>
       </grid>
     </children>
