@@ -10,14 +10,14 @@ public class Album extends JDialog {
     private JButton buttonEliminar;
     private JButton buttonRetroceder;
 
-    public Album(JDialog jDialog, boolean b) {
+    public Album (){
         setContentPane(contentPane);
         setModal(true);
         setSize(300,500);
         buttonRetroceder.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
+                dispose();
             }
         });
     }

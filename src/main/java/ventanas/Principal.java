@@ -15,29 +15,30 @@ public class Principal extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setContentPane(contentPane);
         setResizable(false);
+        Song song = new Song();
+        Album album = new Album();
+        Playlist playlist = new Playlist();
 
         buttonAlbum.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Album album = new Album(new javax.swing.JDialog(),true);
                 album.setVisible(true);
             }
         });
         buttonSong.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Playlist song = new Playlist(new javax.swing.JDialog(),true);
                 song.setVisible(true);
             }
         });
         buttonPlaylist.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Playlist playlist = new Playlist(new javax.swing.JDialog(),true);
                 playlist.setVisible(true);
             }
         });
     }
+
 
     private void initComponents() {
 

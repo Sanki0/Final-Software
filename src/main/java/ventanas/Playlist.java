@@ -9,14 +9,14 @@ public class Playlist extends JDialog {
     private JButton buttonAgregar;
     private JButton buttonEliminar;
     private JButton buttonRetroceder;
-    public Playlist(JDialog jDialog, boolean b) {
+    public Playlist() {
         setContentPane(contentPane);
         setModal(true);
         setSize(300,500);
         buttonRetroceder.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
+                dispose();
             }
         });
     }
