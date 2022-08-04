@@ -16,7 +16,7 @@ public class Principal extends JFrame {
         setContentPane(contentPane);
         setResizable(false);
         Song song = new Song();
-        Album album = new Album();
+        Albumes album = new Albumes();
         Playlist playlist = new Playlist();
 
         buttonAlbum.addActionListener(new ActionListener() {
